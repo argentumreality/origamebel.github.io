@@ -9,7 +9,8 @@
 }
 
 canvas {
-	-webkit-touch-callout: none; /* iOS Safari */
+    touch-action: hover;
+	-webkit-touch-callout: auto; /* iOS Safari */
 	-webkit-user-select: none; /* Safari */
 	-khtml-user-select: none; /* Konqueror HTML */
 	-moz-user-select: none; /* Firefox */
@@ -20,7 +21,7 @@ canvas {
 .slides {
 	box-sizing: border-box;
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	padding: 0 10vw;
 	width: 100%;
 	max-width: 100%;
