@@ -38621,8 +38621,10 @@ module.exports = "3.png";
 module.exports = "4.png";
 },{}],"../images/5.jpg":[function(require,module,exports) {
 module.exports = "5.png";
-    },{}],"../images/6.jpg":[function(require,module,exports) {
+},{}],"../images/6.jpg":[function(require,module,exports) {
 module.exports = "6.png";
+},{}],"../images/7.jpg":[function(require,module,exports) {
+module.exports = "7.png";
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
@@ -38643,6 +38645,8 @@ var _4 = _interopRequireDefault(require("../images/4.jpg"));
 var _5 = _interopRequireDefault(require("../images/5.jpg"));
     
     var _6 = _interopRequireDefault(require("../images/6.jpg"));
+    
+    var _7 = _interopRequireDefault(require("../images/7.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -38652,7 +38656,7 @@ var slidesData = [{
   image: _.default,
   title: "Гердер",
   meta: "Кресло",
-    silka: "1.html"
+    silka: "constructor.html"
 }, {
   image: _2.default,
   title: "Гердер",
@@ -38679,6 +38683,12 @@ var slidesData = [{
   title: "Sochi",
   meta: "Origamebel",
     silka: "6.html"
+},
+{
+  image: _7.default,
+  title: "Sochi",
+  meta: "Кресло",
+    silka: "7.html"
 }];
 var slides = new _Slides.Slides(slidesData);
 var showcase = new _Showcase.Showcase(slidesData, {
