@@ -67,11 +67,13 @@ canvas {
 }
 
 .slide-more {
-	border-bottom: 1px solid;
+    font-size: 32px;
+
+	border: 2px solid;
 }
 
 .slide-more:hover {
-	border-bottom: 1px solid transparent;
+	border-bottom: 2px solid transparent;
 }
 
 .slide-title {

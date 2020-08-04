@@ -38415,7 +38415,7 @@ function () {
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       meta.innerHTML = entry.meta;
       title.innerHTML = entry.title;
-      more.innerHTML = 'Read more';
+      more.innerHTML = 'Открыть в AR';
       more.href = entry.silka;
       slide.appendChild(meta);
       slide.appendChild(title);
@@ -38664,29 +38664,29 @@ var slidesData = [{
     silka: "2.html"
 }, {
   image: _3.default,
-  title: "Столик",
-  meta: "Столик",
+  title: "Жемчуг",
+  meta: "Стол (пряомугольный)",
     silka: "3.html"
 }, {
   image: _4.default,
-  title: "Стул",
+  title: "Барно",
   meta: "Стул",
     silka: "4.html"
 }, {
   image: _5.default,
   title: "Жемчуг",
-  meta: "Столик",
+  meta: "Стол (круглый)",
     silka: "5.html"
 },
 {
   image: _6.default,
   title: "Sochi",
-  meta: "Origamebel",
+  meta: "Диван",
     silka: "6.html"
 },
 {
   image: _7.default,
-  title: "Sochi",
+  title: "Велоган",
   meta: "Кресло",
     silka: "7.html"
 }];
