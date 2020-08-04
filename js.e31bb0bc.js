@@ -37894,9 +37894,9 @@ function () {
       };
 
       var touchListener = function touchListener(ev) {
-        // if (ev.type === "touchend") {
-        //   throw new Error(ev.targetTouches);
-        // }
+         if (ev.type === "touchend") {
+           throw new Error(ev.targetTouches);
+         }
         ev.preventDefault();
         grabListener({
           y: ev.targetTouches[0] ? ev.targetTouches[0].clientY : null
@@ -38416,7 +38416,7 @@ function () {
       meta.innerHTML = entry.meta;
       title.innerHTML = entry.title;
       more.innerHTML = 'Read more';
-        more.href = entry.silka;
+      more.href = entry.silka;
       slide.appendChild(meta);
       slide.appendChild(title);
       slide.appendChild(more);
