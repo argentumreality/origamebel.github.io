@@ -109,7 +109,7 @@ canvas {
 }
 
 .scrolling > .slide {
-	transform: translateY(-50%);
+	transform: translateY(-120%);
 	opacity: 1;
 }
 
